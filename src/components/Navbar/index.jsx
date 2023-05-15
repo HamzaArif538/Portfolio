@@ -6,6 +6,9 @@ import { Dialog } from "@headlessui/react";
 import {scroller} from 'react-scroll'
 
 export default function Navbar() {
+
+
+
 const [showMobileMenu, setShowMobileMenu] = useState(false);
 
 function handleNavigate(id){
@@ -15,9 +18,14 @@ scroller.scrollTo(id, {
 })
 }
 
+<style>
+</style>
+
 return (
+
+    
     <header className="border-b-[1px] border-bgRed fixed bg-blackBg inset-x-0 top-0 z-50">
-    <nav className="flex items-center justify-between py-3 px-8">
+    <nav className="flex items-center justify-between py-3 px-8 " >
         <div className="flex lg:flex-1">
         <a className="-m-1.5 p-1.5" href="#">
             <span className="sr-only">Your Website Name</span>
@@ -65,7 +73,7 @@ return (
         >
         <div className="flex items-center justify-between">
             <a className="-m-1.5 p-1.5" href="#">
-            <span className="sr-only">Your Website Name</span>
+            <span className="sr-only">Hamza Arif</span>
             <img className="h-14 w-auto" src={logo} alt="Your Website Name" />
             </a>
             <button
