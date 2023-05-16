@@ -1,6 +1,7 @@
 import { scroller } from "react-scroll";
 import { footerIcons, navigation } from "../../data";
 
+
 const Footer = () => {
 
 function handleNavigate(id){
@@ -11,6 +12,7 @@ function handleNavigate(id){
 }
 
 return (
+
     <div className="bg-primaryBackground">
     <div className="px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8 max-w-screen-xl">
         <ul className="flex flex-wrap justify-center -mx-5 -my-2 list-none">

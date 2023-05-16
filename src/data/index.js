@@ -5,7 +5,7 @@ import {
   } from "react-icons/si";
   import { FaCloud,  } from 'react-icons/fa';
   import { FaCode } from 'react-icons/fa';
-  import { AiOutlineShoppingCart } from 'react-icons/ai'
+  import { AiFillMail, AiOutlineMail, AiOutlineShoppingCart } from 'react-icons/ai'
 
   import { CgWebsite } from "react-icons/cg";
   import { MdOutlineDeveloperMode } from "react-icons/md";
@@ -175,8 +175,9 @@ import {
       link: "https://twitter.com/__sardarhamza"
     },
     {
-      icon: <FaInstagram size={"30px"} />,
-      link: "https://www.instagram.com/__sardarhamza/"
+      icon: <AiOutlineMail size={"30px"} />,
+      link: "mailto:sardarhamza538@gmail.com"
     },
   ];
+
   
