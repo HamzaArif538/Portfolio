@@ -52,7 +52,7 @@ return (
 
             <div className="mt-8">
                 <button
-                type="submit"
+                type="submit" 
                 className="uppercase text-sm font-bold tracking-wide bg-bgRed text-gray-100 p-3 rounded-lg w-full focus:outline-none"
                 >
                 Send Message

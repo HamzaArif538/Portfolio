@@ -5,15 +5,16 @@ import {
   } from "react-icons/si";
   import { FaCloud,  } from 'react-icons/fa';
   import { FaCode } from 'react-icons/fa';
-  import { AiFillMail, AiOutlineMail, AiOutlineShoppingCart } from 'react-icons/ai'
+  import { AiOutlineMail, AiOutlineShoppingCart } from 'react-icons/ai'
 
   import { CgWebsite } from "react-icons/cg";
   import { MdOutlineDeveloperMode } from "react-icons/md";
   import { GoReport } from "react-icons/go";
-  import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+  import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
   import image1 from "../images/1.png";
   import image2 from "../images/2.png";
   import image3 from "../images/3.png";
+  import image6 from "../images/6.png";
   
   export const navigation = [
     { name: "Home", href: "#", id: "home" },
@@ -121,11 +122,11 @@ import {
       title: "Amazon Clone",
       subtitle: "A functional front-end amazon clone made using React",
     },
-    // {
-    //   image: image1,
-    //   title: "ANALYTICS",
-    //   subtitle: "Getting tickets to the big show",
-    // },
+    {
+      image: image6,
+      title: "EVogue",
+      subtitle: "An Ecommerce Website using React.js for selling Electronic Devices",
+    },
   ];
   
   export const contactControls = [
